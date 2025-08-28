@@ -14,10 +14,10 @@ from collections import Counter
 # -----------------------------
 # Config
 # -----------------------------
-DATA_DIR = "./dataset/images"
-TRAIN_CSV = "./dataset/train.csv"
-VAL_CSV = "./dataset/val.csv"
-BATCH_SIZE = 32        # Increased from 16
+DATA_DIR = "../dataset/images"
+TRAIN_CSV = "../dataset/train.csv"
+VAL_CSV = "../dataset/val.csv"
+BATCH_SIZE = 16
 NUM_EPOCHS = 25        # Increased slightly
 LEARNING_RATE = 5e-4   # Slightly reduced for stability
 IMG_SIZE = 224

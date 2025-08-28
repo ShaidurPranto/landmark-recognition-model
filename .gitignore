@@ -1,1 +1,9 @@
+# Ignore the dataset folder
 dataset/
+
+# Ignore all .pth files
+*.pth
+
+# Ignore all .onnx files
+*.onnx
+
